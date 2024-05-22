@@ -1,0 +1,866 @@
+{
+    "CUs": [
+        {
+            "ID": 0,
+            "node": 1,
+            "capacity": 8
+        },
+        {
+            "ID": 1,
+            "node": 2,
+            "capacity": 8
+        }
+    ],
+    "DUs": [
+        {
+            "ID": 0,
+            "node": 3,
+            "capacity": 10
+        },
+        {
+            "ID": 1,
+            "node": 4,
+            "capacity": 10
+        },
+        {
+            "ID": 2,
+            "node": 5,
+            "capacity": 10
+        },
+        {
+            "ID": 3,
+            "node": 6,
+            "capacity": 10
+        },
+        {
+            "ID": 4,
+            "node": 7,
+            "capacity": 10
+        },
+        {
+            "ID": 5,
+            "node": 8,
+            "capacity": 10
+        },
+        {
+            "ID": 6,
+            "node": 9,
+            "capacity": 10
+        },
+        {
+            "ID": 7,
+            "node": 10,
+            "capacity": 10
+        },
+        {
+            "ID": 8,
+            "node": 11,
+            "capacity": 10
+        },
+        {
+            "ID": 9,
+            "node": 12,
+            "capacity": 10
+        },
+        {
+            "ID": 10,
+            "node": 13,
+            "capacity": 10
+        },
+        {
+            "ID": 11,
+            "node": 14,
+            "capacity": 10
+        },
+        {
+            "ID": 12,
+            "node": 15,
+            "capacity": 10
+        },
+        {
+            "ID": 13,
+            "node": 16,
+            "capacity": 10
+        },
+        {
+            "ID": 14,
+            "node": 17,
+            "capacity": 10
+        },
+        {
+            "ID": 15,
+            "node": 18,
+            "capacity": 10
+        },
+        {
+            "ID": 16,
+            "node": 19,
+            "capacity": 10
+        },
+        {
+            "ID": 17,
+            "node": 20,
+            "capacity": 10
+        },
+        {
+            "ID": 18,
+            "node": 21,
+            "capacity": 10
+        },
+        {
+            "ID": 19,
+            "node": 22,
+            "capacity": 10
+        },
+        {
+            "ID": 20,
+            "node": 23,
+            "capacity": 10
+        },
+        {
+            "ID": 21,
+            "node": 24,
+            "capacity": 10
+        },
+        {
+            "ID": 22,
+            "node": 25,
+            "capacity": 10
+        },
+        {
+            "ID": 23,
+            "node": 26,
+            "capacity": 10
+        },
+        {
+            "ID": 24,
+            "node": 27,
+            "capacity": 10
+        },
+        {
+            "ID": 25,
+            "node": 28,
+            "capacity": 10
+        },
+        {
+            "ID": 26,
+            "node": 29,
+            "capacity": 10
+        },
+        {
+            "ID": 27,
+            "node": 30,
+            "capacity": 10
+        },
+        {
+            "ID": 28,
+            "node": 31,
+            "capacity": 10
+        },
+        {
+            "ID": 29,
+            "node": 32,
+            "capacity": 10
+        },
+        {
+            "ID": 30,
+            "node": 33,
+            "capacity": 10
+        },
+        {
+            "ID": 31,
+            "node": 34,
+            "capacity": 10
+        },
+        {
+            "ID": 32,
+            "node": 35,
+            "capacity": 10
+        },
+        {
+            "ID": 33,
+            "node": 36,
+            "capacity": 10
+        },
+        {
+            "ID": 34,
+            "node": 37,
+            "capacity": 10
+        },
+        {
+            "ID": 35,
+            "node": 38,
+            "capacity": 10
+        },
+        {
+            "ID": 36,
+            "node": 39,
+            "capacity": 10
+        },
+        {
+            "ID": 37,
+            "node": 40,
+            "capacity": 10
+        },
+        {
+            "ID": 38,
+            "node": 41,
+            "capacity": 10
+        },
+        {
+            "ID": 39,
+            "node": 42,
+            "capacity": 10
+        },
+        {
+            "ID": 40,
+            "node": 43,
+            "capacity": 10
+        },
+        {
+            "ID": 41,
+            "node": 44,
+            "capacity": 10
+        },
+        {
+            "ID": 42,
+            "node": 45,
+            "capacity": 10
+        },
+        {
+            "ID": 43,
+            "node": 46,
+            "capacity": 10
+        },
+        {
+            "ID": 44,
+            "node": 47,
+            "capacity": 10
+        },
+        {
+            "ID": 45,
+            "node": 48,
+            "capacity": 10
+        },
+        {
+            "ID": 46,
+            "node": 49,
+            "capacity": 10
+        }
+    ],
+    "RUs": [
+        {
+            "ID": 0,
+            "DU_ID": 0,
+            "node": 3,
+            "capacity": 10
+        },
+        {
+            "ID": 1,
+            "DU_ID": 1,
+            "node": 4,
+            "capacity": 10
+        },
+        {
+            "ID": 2,
+            "DU_ID": 2,
+            "node": 5,
+            "capacity": 10
+        },
+        {
+            "ID": 3,
+            "DU_ID": 3,
+            "node": 6,
+            "capacity": 10
+        },
+        {
+            "ID": 4,
+            "DU_ID": 4,
+            "node": 7,
+            "capacity": 10
+        },
+        {
+            "ID": 5,
+            "DU_ID": 5,
+            "node": 8,
+            "capacity": 10
+        },
+        {
+            "ID": 6,
+            "DU_ID": 6,
+            "node": 9,
+            "capacity": 10
+        },
+        {
+            "ID": 7,
+            "DU_ID": 7,
+            "node": 10,
+            "capacity": 10
+        },
+        {
+            "ID": 8,
+            "DU_ID": 8,
+            "node": 11,
+            "capacity": 10
+        },
+        {
+            "ID": 9,
+            "DU_ID": 9,
+            "node": 12,
+            "capacity": 10
+        },
+        {
+            "ID": 10,
+            "DU_ID": 10,
+            "node": 13,
+            "capacity": 10
+        },
+        {
+            "ID": 11,
+            "DU_ID": 11,
+            "node": 14,
+            "capacity": 10
+        },
+        {
+            "ID": 12,
+            "DU_ID": 12,
+            "node": 15,
+            "capacity": 10
+        },
+        {
+            "ID": 13,
+            "DU_ID": 13,
+            "node": 16,
+            "capacity": 10
+        },
+        {
+            "ID": 14,
+            "DU_ID": 14,
+            "node": 17,
+            "capacity": 10
+        },
+        {
+            "ID": 15,
+            "DU_ID": 15,
+            "node": 18,
+            "capacity": 10
+        },
+        {
+            "ID": 16,
+            "DU_ID": 16,
+            "node": 19,
+            "capacity": 10
+        },
+        {
+            "ID": 17,
+            "DU_ID": 17,
+            "node": 20,
+            "capacity": 10
+        },
+        {
+            "ID": 18,
+            "DU_ID": 18,
+            "node": 21,
+            "capacity": 10
+        },
+        {
+            "ID": 19,
+            "DU_ID": 19,
+            "node": 22,
+            "capacity": 10
+        },
+        {
+            "ID": 20,
+            "DU_ID": 20,
+            "node": 23,
+            "capacity": 10
+        },
+        {
+            "ID": 21,
+            "DU_ID": 21,
+            "node": 24,
+            "capacity": 10
+        },
+        {
+            "ID": 22,
+            "DU_ID": 22,
+            "node": 25,
+            "capacity": 10
+        },
+        {
+            "ID": 23,
+            "DU_ID": 23,
+            "node": 26,
+            "capacity": 10
+        },
+        {
+            "ID": 24,
+            "DU_ID": 24,
+            "node": 27,
+            "capacity": 10
+        },
+        {
+            "ID": 25,
+            "DU_ID": 25,
+            "node": 28,
+            "capacity": 10
+        },
+        {
+            "ID": 26,
+            "DU_ID": 26,
+            "node": 29,
+            "capacity": 10
+        },
+        {
+            "ID": 27,
+            "DU_ID": 27,
+            "node": 30,
+            "capacity": 10
+        },
+        {
+            "ID": 28,
+            "DU_ID": 28,
+            "node": 31,
+            "capacity": 10
+        },
+        {
+            "ID": 29,
+            "DU_ID": 29,
+            "node": 32,
+            "capacity": 10
+        },
+        {
+            "ID": 30,
+            "DU_ID": 30,
+            "node": 33,
+            "capacity": 10
+        },
+        {
+            "ID": 31,
+            "DU_ID": 31,
+            "node": 34,
+            "capacity": 10
+        },
+        {
+            "ID": 32,
+            "DU_ID": 32,
+            "node": 35,
+            "capacity": 10
+        },
+        {
+            "ID": 33,
+            "DU_ID": 33,
+            "node": 36,
+            "capacity": 10
+        },
+        {
+            "ID": 34,
+            "DU_ID": 34,
+            "node": 37,
+            "capacity": 10
+        },
+        {
+            "ID": 35,
+            "DU_ID": 35,
+            "node": 38,
+            "capacity": 10
+        },
+        {
+            "ID": 36,
+            "DU_ID": 36,
+            "node": 39,
+            "capacity": 10
+        },
+        {
+            "ID": 37,
+            "DU_ID": 37,
+            "node": 40,
+            "capacity": 10
+        },
+        {
+            "ID": 38,
+            "DU_ID": 38,
+            "node": 41,
+            "capacity": 10
+        },
+        {
+            "ID": 39,
+            "DU_ID": 39,
+            "node": 42,
+            "capacity": 10
+        },
+        {
+            "ID": 40,
+            "DU_ID": 40,
+            "node": 43,
+            "capacity": 10
+        },
+        {
+            "ID": 41,
+            "DU_ID": 41,
+            "node": 44,
+            "capacity": 10
+        },
+        {
+            "ID": 42,
+            "DU_ID": 42,
+            "node": 45,
+            "capacity": 10
+        },
+        {
+            "ID": 43,
+            "DU_ID": 43,
+            "node": 46,
+            "capacity": 10
+        },
+        {
+            "ID": 44,
+            "DU_ID": 44,
+            "node": 47,
+            "capacity": 10
+        },
+        {
+            "ID": 45,
+            "DU_ID": 45,
+            "node": 48,
+            "capacity": 10
+        },
+        {
+            "ID": 46,
+            "DU_ID": 46,
+            "node": 49,
+            "capacity": 10
+        }
+    ],
+    "paths": [
+        {
+            "DU_ID": 0,
+            "latency": [
+                0.25,
+                1
+            ]
+        },
+        {
+            "DU_ID": 1,
+            "latency": [
+                0.25,
+                1
+            ]
+        },
+        {
+            "DU_ID": 2,
+            "latency": [
+                0.25,
+                1
+            ]
+        },
+        {
+            "DU_ID": 3,
+            "latency": [
+                0.25,
+                1
+            ]
+        },
+        {
+            "DU_ID": 4,
+            "latency": [
+                0.25,
+                1
+            ]
+        },
+        {
+            "DU_ID": 5,
+            "latency": [
+                0.25,
+                1
+            ]
+        },
+        {
+            "DU_ID": 6,
+            "latency": [
+                0.25,
+                0.25
+            ]
+        },
+        {
+            "DU_ID": 7,
+            "latency": [
+                0.25,
+                0.25
+            ]
+        },
+        {
+            "DU_ID": 8,
+            "latency": [
+                0.25,
+                0.25
+            ]
+        },
+        {
+            "DU_ID": 9,
+            "latency": [
+                0.25,
+                0.25
+            ]
+        },
+        {
+            "DU_ID": 10,
+            "latency": [
+                0.25,
+                0.25
+            ]
+        },
+        {
+            "DU_ID": 11,
+            "latency": [
+                1,
+                0.25
+            ]
+        },
+        {
+            "DU_ID": 12,
+            "latency": [
+                1,
+                0.25
+            ]
+        },
+        {
+            "DU_ID": 13,
+            "latency": [
+                1,
+                0.25
+            ]
+        },
+        {
+            "DU_ID": 14,
+            "latency": [
+                1,
+                0.25
+            ]
+        },
+        {
+            "DU_ID": 15,
+            "latency": [
+                1,
+                0.25
+            ]
+        },
+        {
+            "DU_ID": 16,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 17,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 18,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 19,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 20,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 21,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 22,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 23,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 24,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 25,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 26,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 27,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 28,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 29,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 30,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 31,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 32,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 33,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 34,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 35,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 36,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 37,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 38,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 39,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 40,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 41,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 42,
+            "latency": [
+                1,
+                1
+            ]
+        },
+        {
+            "DU_ID": 43,
+            "latency": [
+                0.25,
+                0.25
+            ]
+        },
+        {
+            "DU_ID": 44,
+            "latency": [
+                0.25,
+                0.25
+            ]
+        },
+        {
+            "DU_ID": 45,
+            "latency": [
+                0.25,
+                0.25
+            ]
+        },
+        {
+            "DU_ID": 46,
+            "latency": [
+                0.25,
+                0.25
+            ]
+        }
+    ]
+}
