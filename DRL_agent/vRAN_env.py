@@ -4,6 +4,7 @@ from gym import spaces
 from read_topology import Topology
 import json
 from stable_baselines3 import A2C
+from DUs_positioning_agent import SecondEnv
 from heuristic import select_DUs
 import time
 
@@ -46,6 +47,8 @@ class CustomEnv(gym.Env):
 
         info = {}
 
+        self.current_split = [action[i] for i in range(0, self.topo.n_DUs)]
+
         demand_heuristic = [self.observation[vDU] for vDU in range(self.topo.n_DUs)]
         json_second_agent = select_DUs(self.topo, demand_heuristic, self.current_split, CUs_current_capacity)
 
@@ -56,8 +59,6 @@ class CustomEnv(gym.Env):
         if not_allocated:
             infeasible_cost = not_allocated * 7
             print("not_allocated")
-        
-        self.current_split = [action[i] for i in range(0, self.topo.n_DUs)]
 
         # calculating processing cost and CU processing constraint
         DU_ID = 0
@@ -101,6 +102,14 @@ class CustomEnv(gym.Env):
                     cost += 7 * 0.5
                 elif self.current_split[du] == 1:
                     cost += 5 * 0.5
+        
+        # print(self.DU_assignment)
+        print(self.current_split, cost)
+
+        # for du in range(0, self.topo.n_DUs):
+        #     for p in self.topo.paths:
+        #         if p["DU_ID"] == du:
+        #             print("CU {} - DU {} with split {} and latency {}".format(self.DU_assignment[du], du, self.current_split[du], p["latency"][self.DU_assignment[du]]))
 
         self.reward_migr[self.day][int(self.count_episodes)].append(cost - proc_cost)
 
