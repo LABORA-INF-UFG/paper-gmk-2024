@@ -11,7 +11,7 @@ In this paper, we introduce a Deep Reinforcement Learning (DRL) agent that is co
 @inproceedings{almeida:24,
  author = {Gabriel Almeida and Mohammad Abdel-Rahman and Kleber Cardoso},
  title = { Constraint-Aware Deep Reinforcement Learning for vRAN Dynamic Placement},
- booktitle = {Anais do XLII Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos},
+ booktitle = {Proceedings of the 42rd Brazilian Symposium on Computer Networks and Distributed Systems (SBRC 2024)},
  location = {Niterói/RJ},
  year = {2024},
  keywords = {},
