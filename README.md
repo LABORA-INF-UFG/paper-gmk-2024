@@ -7,7 +7,7 @@ This repository aims to demonstrate the *Constraint-Aware Deep Reinforcement Lea
 In this paper, we introduce a Deep Reinforcement Learning (DRL) agent that is constraint-aware, ensuring the solutions' feasibility. We compare our DRL solution with existing optimization models and evaluate it under different scenarios, including the presence of Mobile Edge Computing (MEC) applications that compete for computing resources. Our contributions include a novel formulation, the implementation of a publicly available DRL agent, and insights into practical application scenarios for disaggregated vRAN optimization.
 
 ## How to cite
-
+```
 @inproceedings{almeida:24,
  author = {Gabriel Almeida and Mohammad Abdel-Rahman and Kleber Cardoso},
  title = { Constraint-Aware Deep Reinforcement Learning for vRAN Dynamic Placement},
@@ -22,3 +22,4 @@ In this paper, we introduce a Deep Reinforcement Learning (DRL) agent that is co
  doi = {10.5753/sbrc.2024.1379},
  url = {https://sol.sbc.org.br/index.php/sbrc/article/view/29803}
 }
+```
